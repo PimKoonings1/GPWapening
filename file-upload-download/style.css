@@ -1,0 +1,58 @@
+body {
+background-image: url("background.jpg");
+background-size: cover;
+}
+form {
+    width: 30%;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #555;
+  }
+  input {
+    width: 100%;
+    border: 1px solid #f1e1e1;
+    display: block;
+    padding: 5px 10px;
+  }
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 100px auto;
+    text-align: center;
+  }
+  th,
+  td {
+    height: 50px;
+    vertical-align: center;
+    border: 1px solid black;
+  }
+  #list {
+    background-color: #2a5a81; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  #list:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
